@@ -1,0 +1,235 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins-light', sans-serif;
+    font-weight: bold; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    text-align: left; 
+  
+    background-color: #faf2e7 ; 
+    background-image: url("../src/derecha.png"); 
+    background-position: right bottom;
+    background-size: contain;
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+}
+
+#index-page {
+    background-color: #faf2e7;
+    background-image: 
+        url("../src/izquierda.png"), 
+        url("../src/derecha.png"); 
+    background-position: left bottom, right bottom;
+    background-size: contain, contain; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat, no-repeat; 
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+/* --- Ajustes para el Menú --- */
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    max-width: 90%; 
+    padding: 22px;
+    box-shadow: none;
+    margin-left: 5px;
+    margin-right: 85px; 
+    text-align: left;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+    width: 90%;
+} 
+
+.menu-icon {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.menu-title {
+    font-size: 19px;
+    color: #ec5171;
+    font-family: 'Poppins-medium', sans-serif;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 19px;
+    color: #ec5171;
+    font-weight: normal;
+    font-family: 'Poppins-medium', sans-serif;
+}
+
+
+.logo img {
+    max-width: 180px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.logo-menu img {
+    max-width: 210px; 
+    height: auto;
+    margin-top: 35px;
+}
+.logo-menu{
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.sobre-nosotros img {
+    max-width: 250px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros {
+    align-self: flex-start; 
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.cliente-frecuente img{
+    max-width: 250px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cliente-frecuente {
+    align-self: flex-start; 
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 30px;
+}
+
+
+.social-icon {
+    width: 40px; 
+    height: 40px;
+    object-fit: contain; 
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    max-width: 90%; 
+    padding: 22px;
+    box-shadow: none;
+    margin-left: 15px;
+    margin-right: 85px; 
+    text-align: left; 
+}
+
+
+h1 {
+    font-family: 'Pacifico', cursive; 
+    font-size: 28px;
+    color: #ff4081; 
+    margin: 10px 0;
+    text-align: left; 
+}
+
+@font-face {
+    font-family: 'Nimpkish';
+    src: url('../fonts/ED\ Nimpkish-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Nimpkish', sans-serif;
+    font-size: 42px; 
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+
+
+p {
+    font-size: 15px;
+    color: #333; 
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: left; 
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4081; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-weight: normal; 
+    align-items: center;         
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn:hover {
+    background-color: #e2366d; 
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    margin-top: 30px;
+}
